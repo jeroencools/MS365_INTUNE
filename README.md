@@ -1,6 +1,7 @@
 # PS_INTUNE_SCRIPTS
-A collection of PS scripts that are useful for deploying through Intune.
-
+A collection of PS scripts that are useful for deploying through Intune. You can deploy these by using the "scripts" section in Intune (https://learn.microsoft.com/en-us/mem/intune/apps/intune-management-extension). 
+However, if you want more options and control over how and when the scripts are deployed, it is better to use an Intunewin file (Win32 app)(https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-app-management). With this second option you can add requirements, detection rules, dependencies ... It is by far the better option, but it requires some more work (https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-prepare).
+The detection rules are an extensive set of options you can configure (https://learn.microsoft.com/en-us/mem/intune/apps/apps-win32-add#step-4-detection-rules) when creating the Win32 app. It allows for detection scripts and manual rules (such as: does a certain file exist? Does a certain registry entry exist or does it have a certain value? ...). When your script doesn't add files or change the registry, you can
 
 ### Set_Lockscreen.ps1
 
