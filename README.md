@@ -10,3 +10,8 @@ This script will set a lock screen that standard users will not be able to chang
 ### Add_URL_Shortcut.ps1
 
 You can quickly add a shortcut (on desktop by default) to a certain website by usin this script. The only values you need to adjust is the name of the shortcut and the link to the website. Of course you can always choose another path to add a shortcut or add more than one by changing the script.
+
+
+### clear_teams.ps1
+
+This script will clear the cache and temporary files that MS Teams uses. This can be used to get a "fresh start" when some of these files are causing errors, slowdowns ... 
