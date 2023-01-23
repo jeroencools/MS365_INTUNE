@@ -24,6 +24,10 @@ You can quickly add a shortcut (on desktop by default) to a certain website by u
 
 This script will clear the cache and temporary files that MS Teams uses. This can be used to get a "fresh start" when some of these files are causing errors, slowdowns ... 
 
+### disable_fastboot.ps1
+
+A simple script that disables (or enables) fastboot. This was used because there were some issues with our wireless adapter drivers when fastboot was enabled. 
+
 ### Hardware_hash_choice.ps1
 
 This script automatically collects the necessary info (Serial number, Windows product ID, Hardware hash, group tag) and add a device to autopilot. When executed, you need to login using an account that has Intune Administrator or Policy and Profile Manager permissions. You can easily add or remove choices in the script.
