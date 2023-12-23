@@ -1,4 +1,11 @@
-﻿$RegKeyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP"
+<#
+This script will set a lock screen that standard users will not be able to change. 
+The only thing you need to change in the scripts is the "$url" value with a link to an image. 
+This can be an online source or a shared file in the same network. 
+The script downloads the image, places it in a folder (C:\MDM) on the device and then sets the lock screen.
+#>
+ 
+ $RegKeyPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\PersonalizationCSP"
 
 
 $LockScreenPath = "LockScreenImagePath"
