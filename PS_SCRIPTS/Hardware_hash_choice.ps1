@@ -1,5 +1,7 @@
-﻿Write-Host "This script automatically collects the necessary info (Serial number, Windows product ID, Hardware hash, group tag) and add a device to autopilot."
-Write-Host "When executed, you need to login using an account that has Intune Administrator or Policy and Profile Manager permissions."
+<# 
+This script automatically collects the necessary info (Serial number, Windows product ID, Hardware hash, group tag) and adds a device to autopilot.
+When executed, you need to login using an account that has Intune Administrator or Policy and Profile Manager permissions.
+#>
 
 $choice1 = "GROUPTAG1 - replace with own"
 $choice2 = "GROUPTAG2 - replace with own"
