@@ -1,3 +1,8 @@
+<#
+This script will clear the cache and temporary files that MS Teams uses. 
+This can be used to get a "fresh start" when some of these files are causing errors, slowdowns ...
+#>
+
 Get-Process -ProcessName Teams -ErrorAction SilentlyContinue
 Get-Process -ProcessName Teams | Stop-Process -Force
 Get-ChildItem -Path $env:APPDATA\"Microsoft\teams\cache" | Remove-Item  -Recurse -Confirm:$false
