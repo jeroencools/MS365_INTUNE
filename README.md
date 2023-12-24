@@ -1,6 +1,8 @@
 # INTUNE
 A collection of PS scripts, tools, settings, apps ... that are useful for deploying through Intune. The collection is a mix of materials I have created myself and others that I have found. When possibile, I always link to the original author, but this was not alwasys achievable. Be sure to DM me when credits are missing and I will make sure to update it.
 
+Everything in this collection has been tested in an experimental setting and later by users in an educational context.
+
 ## Scripts
 You can deploy these by using the "scripts" section in Intune (https://learn.microsoft.com/en-us/mem/intune/apps/intune-management-extension).
 
