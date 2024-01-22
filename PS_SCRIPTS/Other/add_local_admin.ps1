@@ -5,4 +5,4 @@ net localgroup Administrators /add "AzureAD\$user"
 ################
 
 # can be executed through Intune admin center
-net localgroup Administrators /add "AzureAD\<UPN>"
+# net localgroup Administrators /add "AzureAD\<UPN>"
