@@ -1,3 +1,7 @@
+<# 
+This script retrieves the last logins for an Intune device. Simply enter the correct device name when running the script and enter how many recent logins you would like to export.
+#>
+
 # Install the Microsoft Graph PowerShell module if not already installed
 # Install-Module Microsoft.Graph -Scope CurrentUser
 
