@@ -1,9 +1,14 @@
-﻿# Install the Microsoft Graph module if not already installed
+<# 
+This script deletes a device in Autopilot, Entra and Intune. Simply enter the correct device name when running the script.
+#>
+ 
+ 
+ # Install the Microsoft Graph module if not already installed
 # Install-Module Microsoft.Graph
 
 # Define device
 
-$deviceName = "DEVICENAME"
+$deviceName = Read-Host -Prompt "Enter the device name"
 
 # Authenticate
 Connect-MgGraph -Scopes "DeviceManagementServiceConfig.ReadWrite.All", "DeviceManagementManagedDevices.PrivilegedOperations.All", "Device.ReadWrite.All"
